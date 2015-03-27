@@ -1168,7 +1168,7 @@ function stf_login_form( $login_only  = 0 ) {
 			<p class="welcome-text"> 歡迎 <strong><?php echo $user_identity ?></strong> 登入</p>
 			<span class="author-avatar"><?php echo get_avatar( $user_ID, $size = '85'); ?></span>
 			<ul>
-				<li><a href="<?php echo home_url() ?>/wp-admin/"> 控制台 </a></li>
+				<li><a href="<?php echo home_url() ?>/wp-admin/post-new.php"> 發表文章 </a></li>
 				<li><a href="<?php echo home_url() ?>/wp-admin/profile.php"> 個人資料 </a></li>
 				<li><a href="<?php echo wp_logout_url(); ?>"> 登出 </a></li>
 			</ul>
