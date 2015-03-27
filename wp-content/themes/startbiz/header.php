@@ -42,7 +42,9 @@
 				</span>
 				<?php endif; ?>
 				
+				<!---
 				<?php wp_nav_menu( array( 'container_class' => 'top-menu', 'theme_location' => 'top-menu', 'fallback_cb' => 'stf_nav_fallback' ) ); ?>
+				--->
 				
 	<?php if(stf_get_option( 'top_right' ) == 'search'): ?>
 					<div class="search-block">
