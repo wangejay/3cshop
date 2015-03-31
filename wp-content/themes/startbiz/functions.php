@@ -82,16 +82,16 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
    //header("Location: admin.php?page=spanel");
 }
 
-add_filter('wp_nav_menu_items', 'add_login_logout_link', 10, 2);
-function add_login_logout_link($items, $args) {
+//add_filter('wp_nav_menu_items', 'add_login_logout_link', 10, 2);
+//function add_login_logout_link($items, $args) {
 
-		ob_start();
-        wp_loginout('index.php');
-        $loginoutlink = ob_get_contents();
-        ob_end_clean();
-        $items .= '<li id="menu-item-100">'. $loginoutlink .'</li>';
-    return $items;
-}
+//		ob_start();
+//        wp_loginout('index.php');
+//        $loginoutlink = ob_get_contents();
+//        ob_end_clean();
+//        $items .= '<li id="menu-item-100">'. $loginoutlink .'</li>';
+//    return $items;
+//}
 
 
 ?>
