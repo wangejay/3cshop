@@ -58,78 +58,13 @@ msgstr "全解析度"
 msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
 msgstr "佈景主題「貳零壹參」需求為 WordPress 版本 3.6 以上。你正在使用 %s 版本。請升級後再試試看。"
 
-#. Theme Name of the plugin/theme
-msgid "Twenty Thirteen"
-msgstr "貳零壹參"
-
-#: functions.php:218
-msgid "Page %s"
-msgstr "第 %s 頁"
-
-#: content-none.php:27
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "沒有找到你要的內容。也許你可以搜尋一下看看。"
-
-#: header.php:43
-msgid "Menu"
-msgstr "選單"
-
-#: header.php:44
-msgid "Skip to content"
-msgstr "跳至內容區"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "關於 <strong>%s</strong> 的搜尋結果"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "WordPress 團隊"
-
-#: content-aside.php:27 content-aside.php:35 content-audio.php:38
-#: content-chat.php:36 content-gallery.php:46 content-image.php:42
-#: content-link.php:19 content-quote.php:32 content-status.php:26
-#: content-video.php:42 content.php:31 image.php:44 page.php:39
-msgid "Edit"
-msgstr "編輯"
-
-#: author-bio.php:26
-msgid "About %s"
-msgstr "關於 %s"
-
-#: archive.php:31
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
-
-#: archive.php:33
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr "Y"
-
-#: footer.php:19
-msgid "Semantic Personal Publishing Platform"
-msgstr "優雅的個人出版平台"
-
-#: content-none.php:12
-msgid "Nothing Found"
-msgstr "找不到任何內容"
-
-#. Translators: used between list items, there is a space after the comma.
-#: functions.php:328 functions.php:334
-msgid ", "
-msgstr ","
-
-#: content-aside.php:20 content-audio.php:31 content-chat.php:30
-#: content-gallery.php:31 content-image.php:30 content-link.php:31
-#: content-quote.php:20 content-status.php:20 content-video.php:30
-#: content.php:48 image.php:70 page.php:35
-msgid "Pages:"
-msgstr "頁面："
-
 #: 404.php:21
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
 msgstr "這真是有點尷尬，不是嗎？"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "看來這裡找不到東西。也許可以試試看搜尋？"
 
 #: archive.php:29
 msgid "Daily Archives: %s"
@@ -139,69 +74,39 @@ msgstr "按日彙整：%s"
 msgid "Monthly Archives: %s"
 msgstr "按月彙整：%s"
 
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "年度彙整：%s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
 #: archive.php:35
 msgid "Archives"
 msgstr "文章彙整"
 
-#: category.php:19
-msgid "Category Archives: %s"
-msgstr "分類彙整：%s"
-
-#: comments.php:45
-msgid "Comment navigation"
-msgstr "迴響導覽列"
-
-#: comments.php:52
-msgid "Comments are closed."
-msgstr "迴響功能已關閉。"
+#: author-bio.php:26
+msgid "About %s"
+msgstr "關於 %s"
 
 #: author-bio.php:30
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "觀看全部 %s 的文章 <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
-msgid "View all % comments"
-msgstr "檢視全部 % 迴響"
+#: author.php:31
+msgid "All posts by %s"
+msgstr "由 %s 發表的全部文章"
 
-#: functions.php:343
-msgid "View all posts by %s"
-msgstr "觀看 %s 的全部文章"
-
-#: tag.php:21
-msgid "Tag Archives: %s"
-msgstr "標籤彙整： %s"
-
-#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.4)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:19
-msgid "http://wordpress.org/"
-msgstr "http://tw.wordpress.org/"
-
-#: footer.php:19
-msgid "Proudly powered by %s"
-msgstr "自豪的採用 %s "
-
-#: functions.php:300
-msgid "Post navigation"
-msgstr "文章導覽列"
-
-#: taxonomy-post_format.php:23
-msgid "%s Archives"
-msgstr "%s 彙整"
-
-#: functions.php:266
-msgid "Posts navigation"
-msgstr "文章導覽列"
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "看來這裡找不到東西。也許可以試試看搜尋？"
-
-#: content-gallery.php:43 content-image.php:39 content-quote.php:29
-#: content-video.php:39 content.php:56
-msgid "Leave a comment"
-msgstr "發表迴響"
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "分類彙整：%s"
 
 #: comments.php:25
 msgctxt "comments title"
@@ -209,10 +114,58 @@ msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "&ldquo;%2$s&rdquo; 有 %1$s 則迴響"
 
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "迴響導覽列"
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr "&larr; 舊迴響"
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr "新迴響 &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "迴響功能已關閉。"
+
+#: content-aside.php:20 content-audio.php:31 content-chat.php:30
+#: content-gallery.php:31 content-image.php:30 content-link.php:31
+#: content-quote.php:20 content-status.php:20 content-video.php:30
+#: content.php:48 image.php:70 page.php:35
+msgid "Pages:"
+msgstr "頁面："
+
+#: content-aside.php:27 content-aside.php:35 content-audio.php:38
+#: content-chat.php:36 content-gallery.php:46 content-image.php:42
+#: content-link.php:19 content-quote.php:32 content-status.php:26
+#: content-video.php:42 content.php:31 image.php:44 page.php:39
+msgid "Edit"
+msgstr "編輯"
+
+#: functions.php:369
+msgid "Permalink to %s"
+msgstr "固定鏈結至 %s"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "Leave a comment"
+msgstr "發表迴響"
+
 #: content-gallery.php:43 content-image.php:39 content-quote.php:29
 #: content-video.php:39 content.php:56
 msgid "One comment so far"
 msgstr "僅有一則迴響"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "View all % comments"
+msgstr "檢視全部 % 迴響"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "找不到任何內容"
 
 #: content-none.php:18
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
@@ -221,6 +174,24 @@ msgstr "準備好發表你的第一篇文章了嗎？<a href=\"%1$s\">從這裡�
 #: content-none.php:22
 msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
 msgstr "抱歉，沒東西符合你的搜尋條件。請試試其他不同關鍵字。"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "沒有找到你要的內容。也許你可以搜尋一下看看。"
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:19
+msgid "http://wordpress.org/"
+msgstr "http://tw.wordpress.org/"
+
+#: footer.php:19
+msgid "Semantic Personal Publishing Platform"
+msgstr "優雅的個人出版平台"
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "自豪的採用 %s "
 
 #: functions.php:97
 msgid "Navigation Menu"
@@ -242,6 +213,26 @@ msgctxt "Bitter font: on or off"
 msgid "on"
 msgstr "於"
 
+#: functions.php:218
+msgid "Page %s"
+msgstr "第 %s 頁"
+
+#: functions.php:266
+msgid "Posts navigation"
+msgstr "文章導覽列"
+
+#: functions.php:270
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 較舊文章"
+
+#: functions.php:274
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "較新文章 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:300
+msgid "Post navigation"
+msgstr "文章導覽列"
+
 #: functions.php:303
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span> %title"
@@ -256,10 +247,27 @@ msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 msgid "Sticky"
 msgstr "置頂"
 
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:328 functions.php:334
+msgid ", "
+msgstr ","
+
+#: functions.php:343
+msgid "View all posts by %s"
+msgstr "觀看 %s 的全部文章"
+
 #: functions.php:363
 msgctxt "1: post format name. 2: date"
 msgid "%1$s on %2$s"
 msgstr "%1$s 於 %2$s"
+
+#: header.php:43
+msgid "Menu"
+msgstr "選單"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "跳至內容區"
 
 #: image.php:22
 msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
@@ -288,30 +296,22 @@ msgctxt "header image description"
 msgid "Star"
 msgstr "星星"
 
-#: archive.php:33
-msgid "Yearly Archives: %s"
-msgstr "年度彙整：%s"
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "關於 <strong>%s</strong> 的搜尋結果"
 
-#: author.php:31
-msgid "All posts by %s"
-msgstr "由 %s 發表的全部文章"
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "標籤彙整： %s"
 
-#: comments.php:46
-msgid "&larr; Older Comments"
-msgstr "&larr; 舊迴響"
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "%s 彙整"
 
-#: comments.php:47
-msgid "Newer Comments &rarr;"
-msgstr "新迴響 &rarr;"
+#. Theme Name of the plugin/theme
+msgid "Twenty Thirteen"
+msgstr "貳零壹參"
 
-#: functions.php:369
-msgid "Permalink to %s"
-msgstr "固定鏈結至 %s"
-
-#: functions.php:270
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> 較舊文章"
-
-#: functions.php:274
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "較新文章 <span class=\"meta-nav\">&rarr;</span>"
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress 團隊"

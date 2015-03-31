@@ -21,13 +21,13 @@ msgstr "繼續閱讀 %s <span class=\"meta-nav\">&rarr;</span> "
 msgid "May only be visible on wide screens."
 msgstr "只能在寬螢幕上顯示。"
 
+#: inc/customizer.php:108
+msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
+msgstr "在首頁的網格或輪播中顯示至多 6 篇你所挑選的文章，以<a href=\"%1$s\">標籤</a>控制；你可以在 <a href=\"%2$s\">外觀 &rarr; 自訂</a>裡變更標籤名稱。如果沒有文章符合此標籤，會以<a href=\"%3$s\">置頂文章</a>來替代。"
+
 #: inc/widgets.php:59
 msgid "More videos"
 msgstr "更多影片"
-
-#: inc/widgets.php:71
-msgid "More links"
-msgstr "更多鏈結"
 
 #: inc/widgets.php:63
 msgid "More audio"
@@ -36,6 +36,10 @@ msgstr "更多音樂"
 #: inc/widgets.php:67
 msgid "More quotes"
 msgstr "更多引文"
+
+#: inc/widgets.php:71
+msgid "More links"
+msgstr "更多鏈結"
 
 #: inc/widgets.php:75
 msgid "More galleries"
@@ -50,19 +54,15 @@ msgstr "更多獨白"
 msgid "%s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%s <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/customizer.php:108
-msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
-msgstr "在首頁的網格或輪播中顯示至多 6 篇你所挑選的文章，以<a href=\"%1$s\">標籤</a>控制；你可以在 <a href=\"%2$s\">外觀 &rarr; 自訂</a>裡變更標籤名稱。如果沒有文章符合此標籤，會以<a href=\"%3$s\">置頂文章</a>來替代。"
-
-#: inc/widgets.php:36
-msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
-msgstr "使用這個小工具來列出你的近期獨白、引文、影片、音訊、圖片、藝廊和鏈結文章。"
-
 #: inc/customizer.php:42 inc/customizer.php:108 inc/featured-content.php:405
 #: inc/featured-content.php:414 inc/featured-content.php:474
 msgctxt "featured content default tag slug"
 msgid "featured"
 msgstr "特色"
+
+#: inc/widgets.php:36
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr "使用這個小工具來列出你的近期獨白、引文、影片、音訊、圖片、藝廊和鏈結文章。"
 
 #. Theme URI of the plugin/theme
 msgid "http://wordpress.org/themes/twentyfourteen"
@@ -84,10 +84,6 @@ msgstr "顯示網站標題和描述"
 msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
 msgstr "欲查閱詳細使用手冊，更多提示與技巧，請造訪 <a href=\"%s\">貳零壹肆說明文件</a>。"
 
-#: inc/customizer.php:24
-msgid "Site Title Color"
-msgstr "網站標題顏色"
-
 #: archive.php:34
 msgctxt "monthly archives date format"
 msgid "F Y"
@@ -97,6 +93,10 @@ msgstr "Y 年 m 月"
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y 年"
+
+#: inc/customizer.php:24
+msgid "Site Title Color"
+msgstr "網站標題顏色"
 
 #: inc/featured-content.php:426
 msgid "Tag Name"
@@ -110,18 +110,6 @@ msgstr "不在前台顯示標籤"
 msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
 msgstr "2014 年，我們預設佈景主題透過時尚的現代設計，讓你輕鬆建立一個回應式雜誌網站。在首頁的網格或輪播中顯示你最喜歡的內容，使用三個小工具區域自訂你的網站，全寬度頁面模版來變更你的內容版型，透過寫手頁面來展示你的作者群。使用 WordPress 來建立一個雜誌網站比以往更加簡單。"
 
-#: author.php:31
-msgid "All posts by %s"
-msgstr "由 %s 發表的所有文章"
-
-#: functions.php:191
-msgid "Appears in the footer section of the site."
-msgstr "顯示於網站頁尾。"
-
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "看來這裡什麼也沒有。或許試試搜尋？"
-
 #: functions.php:258
 msgid "Previous"
 msgstr "前"
@@ -129,6 +117,14 @@ msgstr "前"
 #: functions.php:259
 msgid "Next"
 msgstr "後"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "看來這裡什麼也沒有。或許試試搜尋？"
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "由 %s 發表的所有文章"
 
 #: content-aside.php:17 content-audio.php:17 content-featured-post.php:28
 #: content-gallery.php:17 content-image.php:17 content-link.php:17
@@ -144,6 +140,10 @@ msgstr "顯示於右側的附加側邊欄。"
 #: functions.php:189
 msgid "Footer Widget Area"
 msgstr "頁尾小工具區域"
+
+#: functions.php:191
+msgid "Appears in the footer section of the site."
+msgstr "顯示於網站頁尾。"
 
 #: functions.php:376
 msgid "%d Article"
@@ -219,79 +219,25 @@ msgstr[0] "此藝廊包含 <a href=\"%1$s\" rel=\"bookmark\">%2$s 張相片</a>�
 msgid "Title:"
 msgstr "標題："
 
-#: inc/widgets.php:261
-msgid "Post format to show:"
-msgstr "顯示的文章格式："
-
 #: inc/widgets.php:258
 msgid "Number of posts to show:"
 msgstr "顯示的文章數量："
+
+#: inc/widgets.php:261
+msgid "Post format to show:"
+msgstr "顯示的文章格式："
 
 #. Template Name of the plugin/theme
 msgid "Contributor Page"
 msgstr "寫手頁面"
 
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "WordPress 團隊"
+#: category.php:20
+msgid "Category Archives: %s"
+msgstr "分類彙整：%s"
 
-#: header.php:48
-msgid "Search"
-msgstr "搜尋"
-
-#: inc/widgets.php:127 inc/widgets.php:172
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "繼續閱讀 <span class=\"meta-nav\">&rarr;</span>"
-
-#: content-aside.php:40 content-audio.php:40 content-gallery.php:40
-#: content-image.php:40 content-link.php:40 content-page.php:28
-#: content-quote.php:40 content-video.php:40 content.php:42 image.php:34
-#: page-templates/contributors.php:35
-msgid "Edit"
-msgstr "編輯"
-
-#: functions.php:495
-msgid "Page %s"
-msgstr "第 %s 頁"
-
-#: content-none.php:27
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "沒有找到你要的內容。也許你可以搜尋一下看看。"
-
-#: header.php:53
-msgid "Skip to content"
-msgstr "跳至內容區"
-
-#: inc/template-tags.php:50
-msgid "&larr; Previous"
-msgstr "&larr; 上一篇"
-
-#: inc/template-tags.php:51
-msgid "Next &rarr;"
-msgstr "下一篇 &rarr;"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "關於 <strong>%s</strong> 的搜尋結果"
-
-#: header.php:52
-msgid "Primary Menu"
-msgstr "主選單"
-
-#: comments.php:27
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s 關於 &ldquo;%2$s&rdquo; 的評論"
-
-#: content-none.php:12
-msgid "Nothing Found"
-msgstr "找不到任何內容"
-
-#: content-aside.php:53 content-audio.php:53 content-gallery.php:53
-#: content-image.php:53 content-link.php:53 content-page.php:22
-#: content-quote.php:53 content-video.php:53 content.php:61 image.php:54
-msgid "Pages:"
-msgstr "頁面："
+#: tag.php:22
+msgid "Tag Archives: %s"
+msgstr "標籤彙整： %s"
 
 #: archive.php:31
 msgid "Daily Archives: %s"
@@ -309,9 +255,10 @@ msgstr "年度彙整：%s"
 msgid "Archives"
 msgstr "文章彙整"
 
-#: category.php:20
-msgid "Category Archives: %s"
-msgstr "分類彙整：%s"
+#: comments.php:27
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s 關於 &ldquo;%2$s&rdquo; 的評論"
 
 #: comments.php:34 comments.php:52
 msgid "Comment navigation"
@@ -329,43 +276,24 @@ msgstr "新迴響 &rarr;"
 msgid "Comments are closed."
 msgstr "迴響功能已關閉。"
 
+#: content-aside.php:53 content-audio.php:53 content-gallery.php:53
+#: content-image.php:53 content-link.php:53 content-page.php:22
+#: content-quote.php:53 content-video.php:53 content.php:61 image.php:54
+msgid "Pages:"
+msgstr "頁面："
+
+#: content-aside.php:40 content-audio.php:40 content-gallery.php:40
+#: content-image.php:40 content-link.php:40 content-page.php:28
+#: content-quote.php:40 content-video.php:40 content.php:42 image.php:34
+#: page-templates/contributors.php:35
+msgid "Edit"
+msgstr "編輯"
+
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
 #: content-video.php:37 content.php:38 inc/widgets.php:194
 msgid "Leave a comment"
 msgstr "發表迴響"
-
-#: content-none.php:18
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "準備好發表你的第一篇文章了嗎？<a href=\"%1$s\">從這裡開始</a>。"
-
-#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 1.3)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:21
-msgid "http://wordpress.org/"
-msgstr "http://tw.wordpress.org/"
-
-#: footer.php:21
-msgid "Proudly powered by %s"
-msgstr "自豪的採用 %s "
-
-#: inc/template-tags.php:85
-msgid "Post navigation"
-msgstr "文章導覽列"
-
-#: inc/template-tags.php:109
-msgid "Sticky"
-msgstr "置頂"
-
-#: tag.php:22
-msgid "Tag Archives: %s"
-msgstr "標籤彙整： %s"
-
-#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 1.3)  #-#-#-#-#
-#. Theme Name of the plugin/theme
-#: inc/customizer.php:105
-msgid "Twenty Fourteen"
-msgstr "貳零壹肆"
 
 #: content-aside.php:37 content-audio.php:37 content-gallery.php:37
 #: content-image.php:37 content-link.php:37 content-quote.php:37
@@ -379,6 +307,93 @@ msgstr "1 則迴響"
 msgid "% Comments"
 msgstr "% 則迴響"
 
+#: inc/widgets.php:127 inc/widgets.php:172
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "繼續閱讀 <span class=\"meta-nav\">&rarr;</span>"
+
+#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 1.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:21
+msgid "http://wordpress.org/"
+msgstr "http://tw.wordpress.org/"
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "自豪的採用 %s "
+
+#: functions.php:83
+msgid "Top primary menu"
+msgstr "頂部主選單"
+
+#: functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr "左側邊欄的次要選單"
+
+#: functions.php:171
+msgid "Primary Sidebar"
+msgstr "主側邊欄"
+
+#: functions.php:173
+msgid "Main sidebar that appears on the left."
+msgstr "顯示於左側的主側邊欄"
+
+#: functions.php:180
+msgid "Content Sidebar"
+msgstr "內容側邊欄"
+
+#: functions.php:213
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:495
+msgid "Page %s"
+msgstr "第 %s 頁"
+
+#: header.php:48
+msgid "Search"
+msgstr "搜尋"
+
+#: header.php:52
+msgid "Primary Menu"
+msgstr "主選單"
+
+#: header.php:53
+msgid "Skip to content"
+msgstr "跳至內容區"
+
+#: inc/template-tags.php:85
+msgid "Post navigation"
+msgstr "文章導覽列"
+
+#: inc/template-tags.php:50
+msgid "&larr; Previous"
+msgstr "&larr; 上一篇"
+
+#: inc/template-tags.php:51
+msgid "Next &rarr;"
+msgstr "下一篇 &rarr;"
+
+#: inc/template-tags.php:109
+msgid "Sticky"
+msgstr "置頂"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "找不到任何內容"
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "準備好發表你的第一篇文章了嗎？<a href=\"%1$s\">從這裡開始</a>。"
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，沒東西符合你的搜尋條件。請試試其他不同關鍵字。"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "沒有找到你要的內容。也許你可以搜尋一下看看。"
+
 #: inc/widgets.php:58 taxonomy-post_format.php:36
 msgid "Videos"
 msgstr "影片"
@@ -386,6 +401,10 @@ msgstr "影片"
 #: inc/widgets.php:54 taxonomy-post_format.php:33
 msgid "Images"
 msgstr "圖片"
+
+#: inc/widgets.php:55
+msgid "More images"
+msgstr "更多圖片"
 
 #: inc/widgets.php:74 taxonomy-post_format.php:48
 msgid "Galleries"
@@ -403,39 +422,20 @@ msgstr "鏈結"
 msgid "Quotes"
 msgstr "引文"
 
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "關於 <strong>%s</strong> 的搜尋結果"
+
+#. #-#-#-#-#  twentyfourteen.pot (Twenty Fourteen 1.3)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/customizer.php:105
+msgid "Twenty Fourteen"
+msgstr "貳零壹肆"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress 團隊"
+
 #. Template Name of the plugin/theme
 msgid "Full Width Page"
 msgstr "全寬度頁面"
-
-#: functions.php:213
-msgctxt "Lato font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:171
-msgid "Primary Sidebar"
-msgstr "主側邊欄"
-
-#: functions.php:84
-msgid "Secondary menu in left sidebar"
-msgstr "左側邊欄的次要選單"
-
-#: functions.php:83
-msgid "Top primary menu"
-msgstr "頂部主選單"
-
-#: functions.php:173
-msgid "Main sidebar that appears on the left."
-msgstr "顯示於左側的主側邊欄"
-
-#: functions.php:180
-msgid "Content Sidebar"
-msgstr "內容側邊欄"
-
-#: content-none.php:22
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "抱歉，沒東西符合你的搜尋條件。請試試其他不同關鍵字。"
-
-#: inc/widgets.php:55
-msgid "More images"
-msgstr "更多圖片"
