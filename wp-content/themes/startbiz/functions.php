@@ -93,5 +93,14 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
 //    return $items;
 //}
 
+// remove the admin bar
+if ( !current_user_can('administrator') ) { 
+	show_admin_bar(false);
+	echo '<style type="text/css"> #ozhmenu_wrap{display:none;}
+	#screen-meta-links .screen-meta-toggle {
+	display: none;
+	}</style>' ;
+}
+
 
 ?>
