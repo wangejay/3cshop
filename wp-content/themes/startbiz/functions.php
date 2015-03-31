@@ -93,6 +93,7 @@ if ( is_admin() && isset($_GET['activated'] ) && $pagenow == 'themes.php' ) {
 //    return $items;
 //}
 
+<<<<<<< HEAD
 // remove the admin bar
 if ( !current_user_can('administrator') ) { 
 	show_admin_bar(false);
@@ -114,5 +115,7 @@ function mail_smtp( $phpmailer ) {
   $phpmailer->Password ="zZ367172"; //你的郵件登陸密碼
 }
 
+=======
+>>>>>>> parent of d97b91a... remove admin bar for none admin user
 
 ?>
