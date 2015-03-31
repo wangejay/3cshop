@@ -103,6 +103,7 @@ if ( !current_user_can('administrator') ) {
 	}</style>' ;
 }
 
+<<<<<<< HEAD
 add_action('phpmailer_init', 'mail_smtp');
 function mail_smtp( $phpmailer ) {
   $phpmailer->IsSMTP();
@@ -117,5 +118,7 @@ function mail_smtp( $phpmailer ) {
 
 =======
 >>>>>>> parent of d97b91a... remove admin bar for none admin user
+=======
+>>>>>>> parent of 6593f45... email
 
 ?>
